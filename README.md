@@ -27,6 +27,7 @@ $ cd ../..
 ### Usage
 #### Attacking Random Mux Locking
 ***1) Lock a design***
+* First: Modify line 8 in `./prepare_datasets/perl_scripts/MUX_random_lock.pl` and place the full path to `theCircuit.pm` (This is done only once)
 * Example, lock the c7552 ISCAS benchmark with key size of 256
 ```sh
 $ cd ./prepare_datasets/perl_scripts/
