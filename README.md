@@ -2,13 +2,16 @@
 Lilas Alrahis, Satwik Patnaik, Muhammad Abdullah Hanif, Muhammad Shafique, and Ozgur Sinanoglu
 
 ---
-### About
-
-UNTANGLE is a link prediction-based attack on logic locking. This repository contains the python implementation of UNTANGLE attack in addition to the implementation of random MUX locking and InterLock.
 
 **Contact**
 
 Lilas Alrahis (lma387@nyu.edu)
+
+### About
+
+UNTANGLE is a link prediction-based attack on logic locking. This repository contains the python implementation of UNTANGLE attack in addition to the implementation of random MUX locking and InterLock.
+
+![UNTANGLE Concept](./fig3_untangle.png)
 ### Setup
 #### Step 1: Install the default GNN model (i.e., DGCNN)
 ```sh
