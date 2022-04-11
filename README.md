@@ -50,7 +50,6 @@ $ python Main.py --file-name c7552_MUX_K256 --train-name links_train.txt  --test
 ```
 ***3) Get the predictions***
 ```sh
-$ cd ../../
 $ python Main.py  --file-name c7552_MUX_K256 --train-name links_train.txt  --test-name links_test.txt --hop 2  --only-predict > Log_pos_predict_c7552_MUX_K256.txt
 $ python Main.py  --file-name c7552_MUX_K256 --train-name links_train.txt  --test-name  link_test_n.txt --hop 2  --only-predict > Log_neg_predict_c7552_MUX_K256.txt
 ```
