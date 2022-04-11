@@ -140,7 +140,7 @@ else:
     )
 
     print('# train: %d, # test: %d' % (len(train_graphs), len(test_graphs)))
-    print(type(test_graphs[0]))
+   
 # DGCNN configurations
 if args.only_predict:
     with open('./data/{}/{}_hyper.pkl'.format(args.file_name,"links"), 'rb') as hyperparameters_name:
