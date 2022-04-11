@@ -159,7 +159,7 @@ def neighbors(fringe, A):
     return res
 
 def node_label(subgraph):
-    # an implementation of the proposed double-radius node labeling (DRNL)
+    # The original implementation of the double-radius node labeling (DRNL) (taken from SEAL platform)
     K = subgraph.shape[0]
     subgraph_wo0 = subgraph[1:, 1:]
     subgraph_wo1 = subgraph[[0]+list(range(2, K)), :][:, [0]+list(range(2, K))]
